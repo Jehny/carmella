@@ -1,0 +1,388 @@
+@html,body {
+	background: #FFCC00;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: #FFCC00;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+#conteudo {
+	position: relative;
+}
+
+#pagina {
+	overflow: hidden;
+	width: 1020px;
+	margin: auto;
+}
+
+#messageSite div { 
+	width: 820px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#closeMessage {
+	float: right;
+	color: white;
+	margin: 0 11px;
+}
+
+header {
+	height: 200px;
+	width: 1020px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+h1 {
+	padding: 0;
+	overflow: hidden;
+	height: 200px;
+	width: 250px;
+	color: white;
+	font-size: 66px;
+	font-family: 'lobster_1.4regular';
+	font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
+#pagina > header {
+	overflow: hidden;
+}
+
+#topo {
+	background: url(../_imgs/bgTopo.png) center top repeat-x;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
+
+#menu {
+	height: 90px;
+	float: left;
+	overflow: hidden;
+	z-index: -1;
+	width: 100%;
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
+
+#menu nav {
+	width: 1020px;
+	margin: auto;
+}
+
+#menu nav a {
+	background: url(../_imgs/separa_menu.png) no-repeat right;
+	padding-right: 40px;
+	height: 90px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	color: #033C33;
+	text-decoration: none;
+}
+
+#menu nav ul {
+	background: #F5F5F5;
+	border-top: 3px solid #BDD1C8;
+	list-style: none;
+	height: 90px;
+	padding-top: 20px;
+}
+
+#menu nav li {
+	float: left;
+	height: 90px;
+	padding-right: 40px;
+	color: #033C33;
+	text-transform: uppercase;
+}
+
+footer {
+	background: #003333;
+	height: 40px;
+	bottom: 0;
+	padding: 20px 0 0 0;
+	color: white;
+}
+
+.topo_logo {
+	float: left;
+	margin: auto;
+	width: 210px;
+	position: absolute;
+}
+
+.topo_logo img {
+	border-style: none;
+}
+
+.topo_title {
+	float: left;
+	margin-left: 250px;
+	margin-right: 150px;
+}
+
+.pedido {
+	float: left;
+	background: #017F7E url(../_imgs/pedido.png) no-repeat right;
+	padding: 15px;
+	width: 335px;
+	height: 100px;
+	color: white;
+	font-size: 14px;
+}
+
+.pedido span {
+	color:#FFCC00;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.promocoes {
+	overflow: hidden;
+	height: 520px;
+	width: 320px;
+	background: #013435;
+	margin: auto;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.promocoes h1 {
+	width: 320px;
+	padding-top: 10px;
+	height: 100px;
+}
+
+.promocoes123 {
+	background: url(../_imgs/promocoes123.png) no-repeat center;
+	height: 300px;
+}
+
+.promocao1 {
+	height: 60px;
+	width: 220px;
+	padding-left: 80px;
+	padding-top: 30px;
+}
+
+.promocao2 {
+	width: 230px;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+
+.promocao3 {
+	width: 230px;
+	padding-left: 80px;
+	padding-top: 15px;
+}
+
+
+.propaganda1 {
+	overflow: hidden;
+	height: 400px;
+	width: 320px;
+	background: #F2F2F2;
+	margin: 0 30px 50px 0;
+	float: left;
+	padding-top: 15px;
+}
+
+.propaganda1 h1 {
+	margin: auto;
+	text-align: center;
+	height: 60px;
+}
+
+.propaganda2 {
+	overflow: hidden;
+	height: 400px;
+	width: 320px;
+	background: #F2F2F2;
+	margin: 0 30px 50px 0;
+	float: left;
+	padding-top: 15px;
+}
+
+.propaganda2 h1 {
+	margin: auto;
+	text-align: center;
+	height: 60px;
+}
+
+.propaganda3 {
+	overflow: hidden;
+	height: 400px;
+	width: 320px;
+	background: #F2F2F2;
+	margin: 0 0 50px 0;
+	float: left;
+	padding-top: 15px;
+}
+
+.propaganda3 h1 {
+	margin: auto;
+	text-align: center;
+	height: 60px;
+}
+
+.facebook {
+	overflow: hidden;
+	height: 400px;
+	width: 320px;
+	background: #F2F2F2;
+	margin: 0 30px 50px 0;
+	float: left;
+}
+
+.facebook header{
+	background: #013435;
+	height: 50px;
+}
+
+.facebook h1 {
+	height: 50px;
+	width: 320px;
+}
+
+.delivery {
+	overflow: hidden;
+	height: 400px;
+	width: 670px;
+	background: #F2F2F2;
+	margin: 0 0 50px 0;
+	float: left;
+}
+
+.delivery header {
+	background: #013435;
+	height: 50px;
+}
+
+.delivery h1 {
+	height: 50px;
+	width: 620px;
+}
+
+.delivery span {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.delivery img {
+	border-style: none;
+}
+
+.delivery_carmella {
+	position: absolute;
+	margin-top: -235px;
+	margin-left: 470px;
+}
+
+.frm_pagamento {
+	width: 280px;
+}
+
+.frm_pagamento img {
+	padding-top: 10px;
+}
+
+.delivery_pedido {
+	margin: -10px auto;
+}
+
+.peca_agora {
+	padding-left: 60px;
+	border-style: none;
+}
+
+/* Fale Conosco */
+#faleconosco {
+	margin: auto;
+	width: 900px;	
+}
+
+#faleconosco header{
+	height: 70px;
+}
+
+#faleconosco fieldset {
+	border: none;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+
+#faleconosco fieldset p {
+	padding: 0px 100px 0 0;
+	float: left;
+}
+
+.subtitulo {
+	color: white;
+	font-size: 22px;
+	margin: 10px auto;
+}
+
+.mensagem {
+	
+}
+
+#localizacao {
+	padding-bottom: 50px;	
+	margin: auto;
+	width: 900px;
+}
+
+#localizacao header {
+	height: 130px;
+}
+
+.mapa {
+	height: 500px;
+	border: 2px solid #FFFFFF;
+	margin: auto;
+	width: 900px;
+}
+
+#ondefica {
+	position: absolute;
+	background: white;
+	height: 500px;
+	width: 300px;
+	margin-top: -502px;
+}
+
+#ondefica h1 {
+	padding-left: 25px;
+	padding-top: 20px;
+	width: 300px;
+}
+
+.pontoReferencia {
+	background: url(../_imgs/localizacao_pino.png) no-repeat left top;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	color: gray;
+	padding-left: 30px;
+	padding-right: 25px;
+	height: 35px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#footerContato {
+	background: url(../_imgs/contato_footer.png);
+	height: 165px;
+}
